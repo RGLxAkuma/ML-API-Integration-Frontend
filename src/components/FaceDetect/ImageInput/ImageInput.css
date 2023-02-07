@@ -1,0 +1,31 @@
+.img_inp
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ececec;
+}
+
+.img_analyze
+{
+    background: #02b2d7;
+}
+
+input
+{
+    width: 500px;
+    height: 40px;
+    color: #202035;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-color: #ececec;
+    background: #ececec;
+    font-size: 1em;
+    margin: 20px;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.55),
+                10px 10px 15px rgba(70,70,70,0.12);
+
+}

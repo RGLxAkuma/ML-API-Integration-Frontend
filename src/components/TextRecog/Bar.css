@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@500&family=Poppins:wght@500&display=swap');
+.prg_bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.progress
+{
+    width: 200px;
+    background-color: #ececec;
+    height: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+    box-shadow:  inset -10px -10px 15px rgba(255,255,255,0.55),
+                  inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.progressing
+{
+    width: 150px;
+    background-color: #02b2d7;
+    height: 15px;
+    transition: 0.5s;
+    border-radius: 10px;
+    box-shadow:  inset -10px -10px 15px rgba(255,255,255,0.55),
+                 inset 10px 10px 15px rgba(70,70,70,0.12);
+}
+.progress_value
+{
+    color: #202035;
+}
