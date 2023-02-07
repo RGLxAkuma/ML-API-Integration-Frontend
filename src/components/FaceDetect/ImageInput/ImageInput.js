@@ -16,7 +16,7 @@ const Imageinput = (props) => {
 
     setIsPending(true); // set to true so the button changes to "Analyzing..."
 
-    fetch(`http://localhost:${process.env.REACT_APP_PORT_NEW}/img_analysis`, {
+    fetch(`https://ml-api-integration-app-api.onrender.com/img_analysis`, {
       //POST request to server API endpoint corresponding to Face Detection
       method: "POST",
       headers: {

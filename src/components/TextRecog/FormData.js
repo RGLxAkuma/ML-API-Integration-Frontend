@@ -28,7 +28,7 @@ const FormData = (props) => {
       statement: `${sentence}`,
     };
 
-    fetch(`http://localhost:${process.env.REACT_APP_PORT_NEW}/text_analysis`, {
+    fetch(`https://ml-api-integration-app-api.onrender.com/text_analysis`, {
       // API endpoint for text analysis of server
       method: "POST",
       headers: {
